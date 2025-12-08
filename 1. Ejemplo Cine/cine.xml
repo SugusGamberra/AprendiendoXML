@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!-- No recuerdo si era ese encoding, pero total, por rellenar lo del encoder :3
+Lo de <!DOCTYPE tal SYSTEM "tal.dtd"> lo omito porque eso es otro archivo de reglas que le pasas 
+y para este ejemplo pues el navegador te va a decir jajaxdsalu2
+Imagino que eso lo daremos maspalante -->
+
+<cine>
+
+<!-- la primera sala es la que voy a dedicar para la reserva de anton y gomez -->
+
+    <sala id="S01" tipo="vip">
+        <nombre>Sala Ant&oacute;n &amp; &lt;G&oacute;mez&gt;</nombre>
+        <capacidad>50</capacidad>
+        
+        <pelicula codigo="P-1">
+            <titulo>Your voice</titulo>
+            <duracion>180 min</duracion>
+        </pelicula>
+
+
+    </sala>
+
+<!-- y para la reserva para una fecha random voy a usar esta sala, pa que no quede vacia :( -->
+
+    <sala id="S02" tipo="normal">
+        <nombre>Sala Est&aacute;ndar</nombre>
+        <capacidad>100</capacidad>
+
+        <pelicula codigo="P-2">
+            <titulo>Matrix</titulo>
+            <duracion>130 min</duracion>
+        </pelicula>
+
+        <reserva id_reserva="R-1">
+            <cliente dni="12345678A">Juan P&eacute;rez</cliente>
+            <fecha>2026-12-01</fecha>
+            <asiento>Fila 5, Butaca 3</asiento>
+        </reserva>
+
+    </sala>
+
+</cine>
