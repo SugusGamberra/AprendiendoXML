@@ -4,39 +4,49 @@ Lo de <!DOCTYPE tal SYSTEM "tal.dtd"> lo omito porque eso es otro archivo de reg
 y para este ejemplo pues el navegador te va a decir jajaxdsalu2
 Imagino que eso lo daremos maspalante -->
 
-<cine>
+<cine> <!-- El elemento raíz NUNCA tiene identificador!! -->
 
 <!-- la primera sala es la que voy a dedicar para la reserva de anton y gomez -->
 
-    <sala id="S01" tipo="vip">
-        <nombre>Sala Ant&oacute;n &amp; &lt;G&oacute;mez&gt;</nombre>
-        <capacidad>50</capacidad>
-        
-        <pelicula codigo="P-1">
-            <titulo>Your voice</titulo>
-            <duracion>180 min</duracion>
-        </pelicula>
-
-
-    </sala>
+    <salas> <!-- correccion: me gusto mas como lo puso mi hermoso profe :P lo veo mas logico y organizado q como lo hice yo-->
+        <sala id = "S01" tipo="VIP">
+            <nombre>Sala Ant&oacute;n &amp; &lt;G&oacute;mez&gt;</nombre> <!--esto es por practicar los caracteres-->
+            <capacidad>50</capacidad>
+        </sala>
 
 <!-- y para la reserva para una fecha random voy a usar esta sala, pa que no quede vacia :( -->
 
-    <sala id="S02" tipo="normal">
-        <nombre>Sala Est&aacute;ndar</nombre>
-        <capacidad>100</capacidad>
+        <sala id="S02" tipo="normal">
+            <nombre>Sala Est&aacute;ndar</nombre>
+            <capacidad>100</capacidad>
+        </sala>
+    </salas>
 
-        <pelicula codigo="P-2">
-            <titulo>Matrix</titulo>
-            <duracion>130 min</duracion>
+    <!-- Corrección: el profe pone la lista de pelis aparte, también me parece mejor idea ;P-->
+    <peliculas>
+        <pelicula id="P01">
+            <titulo>Your voice</titulo>
+            <director>Fulanito</director>
+            <duracion>180 min</duracion>
+            <fechaEstreno>2023</fechaEstreno>
         </pelicula>
 
-        <reserva id_reserva="R-1">
-            <cliente dni="12345678A">Juan P&eacute;rez</cliente>
-            <fecha>2026-12-01</fecha>
-            <asiento>Fila 5, Butaca 3</asiento>
-        </reserva>
+        <pelicula id="P02">
+            <titulo>El amanecer</titulo>
+            <director>Menganito</director>
+            <duracion>120 min</duracion>
+            <fechaEstreno>2024</fechaEstreno>
+        </pelicula>
+    </peliculas>
 
-    </sala>
+    <!--Correcion: las reservas tb las pone aparte y me gusta mas :P-->
+    <reservas>
+        <reserva id="R01">
+            <Sala>S01</Sala>
+            <Pelicula>P01</Pelicula>
+            <fecha>13/02/2026</fecha> <!-- con esto recordamos q podemos usar casi cualquier caracter excepto <, >, ", ' y & xk tienen utilidad en xml-->
+            <dniUser>12345679A</dinUser>
+        </reserva>
+    </reservas>
 
 </cine>
