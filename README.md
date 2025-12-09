@@ -26,8 +26,9 @@
 | 📁 Carpeta | 📝 Contenido | 📊 Estado |
 | :--- | :--- | :---: |
 | [`1. Ejemplo Cine`](./1.%20Ejemplo%20Cine/) | Primer documento XML donde estructuramos 2 salas de un cine, una reservada y otra no | ✅ |
+| [`2. Documentos bien formados y Tree Structure`](./2.%20Documentos%20bien%20formados%20y%20Tree%20Structure/) | Puntos que debe cumplir para que funcione el .xml y Tree Structure | ✅ |
 
-*(A medida que avances en clase se irán añadiendo nuevas carpetas y ejemplos 😌)*
+*(A medida que avance en clase se irán añadiendo nuevas carpetas y ejemplos 😌)*
 
 ---
 
