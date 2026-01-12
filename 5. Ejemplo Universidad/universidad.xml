@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="universidad.xsd">
+
+    <Estudiante id="estudiante1">
+        <Nombre>Mario Duraznos</Nombre>
+        <Edad>33</Edad>
+        <Programa>Ingeniería de Sistemas</Programa>
+        <Correo>ma-rv.du-lut93@gmail.com</Correo>
+    </Estudiante>
+    <Estudiante id="estudiante2">
+        <Nombre>Patricia Galopera</Nombre>
+        <Edad>33</Edad>
+        <Programa>Ingeniería de Redes</Programa>
+        <Correo>pagalo_93@gmail.com</Correo>
+    </Estudiante>
+    <Estudiante id="estudiante3">
+        <Nombre>Zagara Rupia</Nombre>
+        <Edad>18</Edad>
+        <Programa>Ingeniería de Ladridos</Programa>
+        <Correo>zagarrupia2020@gmail.com</Correo>
+    </Estudiante>
+
+</Universidad>
