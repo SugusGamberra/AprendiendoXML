@@ -28,9 +28,10 @@
 | [`1. Ejemplo Cine`](./1.%20Ejemplo%20Cine/) | Primer documento XML donde estructuramos 2 salas de un cine, una reservada y otra no | ✅ |
 | [`2. Documentos bien formados y Tree Structure`](./2.%20Documentos%20bien%20formados%20y%20Tree%20Structure/) | Puntos que debe cumplir para que funcione el .xml y Tree Structure | ✅ |
 | [`3. DTD y XSD Schema`](./3.%20DTD%20y%20XSD%20(Schema)) | Diferencias entre DTD y XSD Schema. Ejemplo con docu bien formado. | ✅ |
-| [`4. Ventajas y desventajas XML`]() | - | ⌛ En proceso |
+| [`4. Ventajas y desventajas XML`](./4.%20Ventajas%20y%20desventajas%20de%20usar%20XML/) | Diferencias entre ventajasa y desventajas de este sistema. | ✅ |
+| [`5. Ejemplo Universidad`](./5.%20Ejemplo%20Universidad/) | Recordatorio de XML y XSD con ejemplo | ✅ |
 
-*(A medida que avance en clase se irán añadiendo nuevas carpetas y ejemplos 😌)*
+*Clases finalizadas!! Este repo quedará en mi olvido, pero en tus manos y ojitos del recuerdo siempre que lo necesites, gracias por haberme acompañado!*
 
 ---
 
@@ -40,5 +41,5 @@
 
 ---
 
-> 🧩 Este repositorio seguirá creciendo con más ejemplos y retos :3  
+> 🧩 Este repositorio ya terminó su crecimiento!  
 > 🩵 Hecho con cariño (y café ☕) uwu
